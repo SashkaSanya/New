@@ -122,3 +122,36 @@ h6 {
 	left: 620px;
 	z-index: 1;
 }
+
+.intro__button {
+	width: 172px;
+
+	padding: 19px 30px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	margin-right: 12px;
+	background: #3d55f9;
+	border: 0px;
+	border-radius: 12px;
+
+	color: #fff;
+	font-size: 16px;
+	font-weight: 700px;
+
+	box-sizing: border-box;
+}
+
+.intro__form {
+	display: flex;
+	justify-content: space-between;
+}
+
+.intro__input {
+	border: 0px;
+	color: red;
+	height: 50px;
+}
+
+input[type="email"]::-webkit-input-placeholder {
+	color: #000;
+}
