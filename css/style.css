@@ -217,11 +217,13 @@ input[type="email"]::-webkit-input-placeholder {
 .discover {
 	width: 1090px;
 	margin: 0 auto;
+	margin-bottom: 188px;
 }
 
 .discover__tittle {
 	width: 700px;
 	margin: 0 auto;
+	margin-bottom: 66px;
 }
 
 .discover__h2 {
@@ -229,4 +231,52 @@ input[type="email"]::-webkit-input-placeholder {
 	font-size: 40px;
 	line-height: 47px;
 	font-weight: 400;
+}
+
+.discover__field {
+	display: flex;
+	justify-content: space-between;
+}
+.discover__text {
+	width: 535px;
+}
+.discover__number {
+	display: flex;
+	align-items: center;
+
+	width: 56px;
+	height: 56px;
+
+	margin-bottom: 24px;
+
+	background: #3d55f9;
+	box-shadow: 16px 16px 32px rgba(7, 19, 48, 0.08);
+	border-radius: 50%;
+
+	font-size: 20px;
+	line-height: 32px;
+	color: #ffffff;
+}
+.discover__number p {
+	margin: 0 auto;
+}
+.discover__h {
+	margin-bottom: 23px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 32px;
+	color: #071330;
+}
+.discover__p {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 32px;
+	color: rgba(7, 19, 48, 0.6);
+}
+.discover__img {
 }
