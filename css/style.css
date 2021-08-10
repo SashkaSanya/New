@@ -321,9 +321,15 @@ input[type="email"]::-webkit-input-placeholder {
 	width: 975px;
 
 	margin: 0 auto;
+}
+
+.stop__field {
+	width: 975px;
 
 	display: flex;
 	justify-content: space-between;
+
+	margin-bottom: 200px;
 }
 
 .stop__text {
@@ -353,4 +359,25 @@ input[type="email"]::-webkit-input-placeholder {
 	line-height: 32px;
 
 	color: #071330;
+}
+
+.small {
+	width: 429px;
+
+	font-size: 12px;
+	line-height: 32px;
+
+	color: #071330;
+}
+.stop__list {
+	padding: 0;
+	list-style: none;
+}
+
+.stop__list li:nth-child(1):before {
+	content: url("../img/stop_vimg1.svg");
+}
+
+.stop__list li:nth-child(2):before {
+	content: url("../img/stop_vimg2.svg");
 }
